@@ -3,6 +3,10 @@
   <div class="alert alert-danger" *ngIf="authService.error$ | async as error">
     {{ error }}
   </div>
+
+  <div class="alert alert-light" *ngIf="message">
+    {{ message }}
+  </div>
   <div
     class="form-control"
     [ngClass]="{
