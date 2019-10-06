@@ -7,7 +7,8 @@ import { config } from "../../config";
 
 export const environment: Environment = {
   production: false,
-  apiKey: config.apiKey
+  apiKey: config.apiKey,
+  fbDbUrl: config.fbDbUrl
 };
 
 /*
