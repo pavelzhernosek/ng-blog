@@ -1,6 +1,7 @@
 import { Environment } from "./interface";
+import { config } from "../config";
 
 export const environment: Environment = {
   production: true,
-  apiKey: "AIzaSyCVfvMEaX_QUidMiE0rP-qHzSmKjLbGKJE"
+  apiKey: config.apiKey
 };
